@@ -9,7 +9,7 @@ export default tseslint.config(
       indent: ['error', 2],
       '@typescript-eslint/no-unused-vars': 'warn',
 
-      // Formatting rules
+      // Formatting rules that are expliticly stated because I want absolute control on how the code looks
       '@stylistic/ts/semi': 'error',
       '@stylistic/ts/space-before-blocks': 'error',
       '@stylistic/ts/block-spacing': 'error',

@@ -1,0 +1,30 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+    // Debugs from the 'Debug console'. This seems like a cleaner option to using the 
+    // regular terminal - give this a go and see how you like it.
+    {
+      "name": "Debug: debug terminal",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+          "run", "build-start"
+      ],
+    },
+
+    // Debugs from 'terminal' window. The logging is a little bit messier compared
+    // to the above config.
+    {
+      "command": "npm run build-start",
+      "name": "Debug: terminal",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}
