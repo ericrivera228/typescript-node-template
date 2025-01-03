@@ -7,6 +7,9 @@ export default tseslint.config(
     plugins: { '@stylistic/ts': stylisticTs },
     rules: {
       indent: ['error', 2],
+      '@typescript-eslint/no-unused-vars': 'warn',
+
+      // Formatting rules
       '@stylistic/ts/semi': 'error',
       '@stylistic/ts/space-before-blocks': 'error',
       '@stylistic/ts/block-spacing': 'error',
