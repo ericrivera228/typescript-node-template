@@ -4,8 +4,11 @@
   // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
   "version": "0.2.0",
   "configurations": [
+
+    // Debugs from the 'Debug console'. This seems like a cleaner option to using the 
+    // regular terminal - give this a go and see how you like it.
     {
-      "name": "Launch via NPM",
+      "name": "Debug: debug terminal",
       "type": "node",
       "request": "launch",
       "cwd": "${workspaceRoot}",
@@ -13,6 +16,15 @@
       "runtimeArgs": [
           "run", "build-start"
       ],
+    },
+
+    // Debugs from 'terminal' window. The logging is a little bit messier compared
+    // to the above config.
+    {
+      "command": "npm run build-start",
+      "name": "Debug: terminal",
+      "request": "launch",
+      "type": "node-terminal"
     }
   ]
 }
