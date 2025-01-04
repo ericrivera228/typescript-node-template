@@ -1,7 +1,5 @@
-console.log('hey, listen! again');
+console.log('hey, listen!');
 
-const inputVar: number = 5;
-
-if (inputVar >= 5) {
-  console.log('bigger!');
+export function testFn() {
+  return true;
 }

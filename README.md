@@ -1,6 +1,6 @@
 # Typescript Node Template
 
-This repo is a template for creating new typescript node projects. It has linting and debugging already configured.
+This repo is a template for creating new typescript node projects. It has linting, debugging, and Jest already configured.
 
 #### Seeding another project with this template
 1. Copy over all files from this project into the new repo, **excluding** the `/build` & `/node_modules` folders.
