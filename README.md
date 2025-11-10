@@ -3,12 +3,17 @@
 This repo is a template for creating new typescript node projects. It has linting, debugging, and Jest already configured.
 
 #### Seeding another project with this template
-1. Copy over all files from this project into the new repo, **excluding** the `/build` & `/node_modules` folders.
+1. Copy over all files from this project into the new repo, **including** `.vscode` and **excluding** the `/build` & `/node_modules` folders.
 2. Run `npm i`.
 3. Update name in `package.json`.
 4. Update REAME.md.
 
 #### Running this project
+
+Before running this project for the first time, install dependencies:
+```
+npm i
+```
 
 To compile and run this project, execute:
 ```
